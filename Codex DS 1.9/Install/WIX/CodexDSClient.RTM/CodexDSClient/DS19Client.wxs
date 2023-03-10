@@ -11,14 +11,18 @@
 	<!--<Product Id="{CDAC537A-61BF-4BD4-9E65-FB085A6780FB}" Name="Codex DS Client 1.8"-->
 	<!--<Product Id="{945F1310-0198-4FFD-86D2-C2A0E2FA9994}" Name="Codex DS Client 1.8"-->
 	<!--<Product Id="{E233E31C-74F1-4995-BB07-D351C226ECA5}" Name="Codex DS Client 1.8"-->
-	<Product Id="{90804DFD-FC58-49F8-A6DD-0CAAB2D36059}" Name="Codex DS Client 1.9"
+	<!--<Product Id="{90804DFD-FC58-49F8-A6DD-0CAAB2D36059}" Name="Codex DS Client 1.9 fix"-->
+	<!--<Product Id="{90804DFD-FC58-49F8-A6DD-0CAAB2D36069}" Name="Codex DS Client 1.9 txbug tx31sp1-->
+	<!--<Product Id="{90804DFD-FC58-49F8-A6DD-0CAAB2D36099}" Name="Codex DS Client 1.9" fixing attachment bug -->
 			 
-    	   Language="1033" Version="9.10.257"
+	<Product Id="{90804DFD-FC58-49F8-A6DD-0CAAB2D36265}" Name="Codex DS Client 1.9"
+			 
+    	   Language="1033" Version="9.10.265"
            Manufacturer="Georgian Microsystems" 
            UpgradeCode="{4D1DD264-0F7C-48F5-B933-337B66D6B026}"
            >
 
-		<!--1.8-->
+		<!--1.8 Legacy -->
 		<!--UpgradeCode="{71E6FFB2-FF79-447E-84BA-0B2882FDCCF8}"--> 
 
 		<Package InstallerVersion="405" Compressed="yes" InstallScope="perMachine" Platform="x86" InstallPrivileges="elevated"

@@ -1131,7 +1131,7 @@ namespace ILG.Codex.CodexR4
 
         private void DoResize()
         {
-            TxDocument.SetFocusAndZooming();
+            if (TxDocument != null) TxDocument.SetFocusAndZooming();
             CCategory.DisplayLayout.Bands[0].Override.DefaultColWidth = CCategory.Width;
             CSbject.DisplayLayout.Bands[0].Override.DefaultColWidth = CSbject.Width;
             CWords.DisplayLayout.Bands[0].Override.DefaultColWidth = CWords.Width;

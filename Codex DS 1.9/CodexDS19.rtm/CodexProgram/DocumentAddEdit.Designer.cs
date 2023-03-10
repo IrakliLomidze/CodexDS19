@@ -43,8 +43,12 @@
             Infragistics.Win.ValueListItem valueListItem2 = new Infragistics.Win.ValueListItem();
             Infragistics.Win.Appearance appearance8 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance9 = new Infragistics.Win.Appearance();
-            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("", -1);
+            Infragistics.Win.ValueListItem valueListItem5 = new Infragistics.Win.ValueListItem();
+            Infragistics.Win.ValueListItem valueListItem6 = new Infragistics.Win.ValueListItem();
+            Infragistics.Win.ValueListItem valueListItem3 = new Infragistics.Win.ValueListItem();
+            Infragistics.Win.ValueListItem valueListItem4 = new Infragistics.Win.ValueListItem();
             Infragistics.Win.Appearance appearance10 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("", -1);
             Infragistics.Win.Appearance appearance11 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance12 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance13 = new Infragistics.Win.Appearance();
@@ -57,10 +61,6 @@
             Infragistics.Win.Appearance appearance20 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance21 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance22 = new Infragistics.Win.Appearance();
-            Infragistics.Win.ValueListItem valueListItem5 = new Infragistics.Win.ValueListItem();
-            Infragistics.Win.ValueListItem valueListItem6 = new Infragistics.Win.ValueListItem();
-            Infragistics.Win.ValueListItem valueListItem3 = new Infragistics.Win.ValueListItem();
-            Infragistics.Win.ValueListItem valueListItem4 = new Infragistics.Win.ValueListItem();
             Infragistics.Win.Appearance appearance23 = new Infragistics.Win.Appearance();
             Infragistics.Win.Appearance appearance24 = new Infragistics.Win.Appearance();
             Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand2 = new Infragistics.Win.UltraWinGrid.UltraGridBand("", -1);
@@ -491,13 +491,11 @@
             Infragistics.Win.Appearance appearance210 = new Infragistics.Win.Appearance();
             Infragistics.Win.UltraWinToolbars.ButtonTool buttonTool30 = new Infragistics.Win.UltraWinToolbars.ButtonTool("OpenInWord");
             this.ultraTabPageControl6 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
-            this.pdfViewer1 = new PdfiumViewer.PdfViewer();
             this.ultraTabPageControl7 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
             this.ultraGroupBox1 = new Infragistics.Win.Misc.UltraGroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.ultraButton2 = new Infragistics.Win.Misc.UltraButton();
             this.ultraTabPageControl4 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
-            this.formContainer1 = new ILG.Codex.CodexR4.ILFormContainer.FormContainer();
             this.ultraTabPageControl5 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
             this.ultraTabControl3 = new Infragistics.Win.UltraWinTabControl.UltraTabControl();
             this.ultraTabSharedControlsPage3 = new Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage();
@@ -512,13 +510,13 @@
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.Status_Mandatory_Label = new System.Windows.Forms.Label();
             this.ultraLabel9 = new Infragistics.Win.Misc.UltraLabel();
-            this.CStatus = new Infragistics.Win.UltraWinGrid.UltraCombo();
             this.label7 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.ultraLabel14 = new Infragistics.Win.Misc.UltraLabel();
             this.CDocFormat = new Infragistics.Win.UltraWinEditors.UltraComboEditor();
             this.label18 = new System.Windows.Forms.Label();
             this.CSecStatus = new Infragistics.Win.UltraWinEditors.UltraComboEditor();
+            this.CStatus = new Infragistics.Win.UltraWinGrid.UltraCombo();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.ultraLabel10 = new Infragistics.Win.Misc.UltraLabel();
             this.EWord = new Infragistics.Win.UltraWinEditors.UltraTextEditor();
@@ -582,13 +580,11 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.ultraTabPageControl13 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
-            this.codexDSHistoryListBox1 = new ILG.Codex.CodexDSHistoryListBox.CodexDSHistoryListBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ultraTabControl1 = new Infragistics.Win.UltraWinTabControl.UltraTabControl();
             this.ultraTabSharedControlsPage1 = new Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage();
             this.DocumentAddEdit_Fill_Panel = new System.Windows.Forms.Panel();
             this._DocumentAddEdit_Toolbars_Dock_Area_Left = new Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea();
-            this.ultraToolbarsManager1 = new Infragistics.Win.UltraWinToolbars.UltraToolbarsManager(this.components);
             this._DocumentAddEdit_Toolbars_Dock_Area_Right = new Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea();
             this._DocumentAddEdit_Toolbars_Dock_Area_Top = new Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea();
             this._DocumentAddEdit_Toolbars_Dock_Area_Bottom = new Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea();
@@ -611,6 +607,10 @@
             this.ultraTabPageControl15 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
             this.ultraTabPageControl17 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
             this.ultraTabPageControl18 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.formContainer1 = new ILG.Codex.CodexR4.ILFormContainer.FormContainer();
+            this.pdfViewer1 = new PdfiumViewer.PdfViewer();
+            this.codexDSHistoryListBox1 = new ILG.Codex.CodexDSHistoryListBox.CodexDSHistoryListBox();
+            this.ultraToolbarsManager1 = new Infragistics.Win.UltraWinToolbars.UltraToolbarsManager(this.components);
             this.ultraTabPageControl6.SuspendLayout();
             this.ultraTabPageControl7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox1)).BeginInit();
@@ -625,9 +625,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ultraTextEditor6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CEncoding)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CStatus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CDocFormat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CSecStatus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CStatus)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EWord)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CWords)).BeginInit();
@@ -664,57 +664,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).BeginInit();
             this.ultraTabControl1.SuspendLayout();
             this.DocumentAddEdit_Fill_Panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ultraToolbarsManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Links)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraToolbarsManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // ultraTabPageControl6
             // 
             this.ultraTabPageControl6.Controls.Add(this.pdfViewer1);
             this.ultraTabPageControl6.Location = new System.Drawing.Point(1, 1);
-            this.ultraTabPageControl6.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.ultraTabPageControl6.Name = "ultraTabPageControl6";
-            this.ultraTabPageControl6.Size = new System.Drawing.Size(2626, 1346);
-            // 
-            // pdfViewer1
-            // 
-            this.pdfViewer1.BackColor = System.Drawing.Color.Silver;
-            this.pdfViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pdfViewer1.Location = new System.Drawing.Point(0, 0);
-            this.pdfViewer1.Margin = new System.Windows.Forms.Padding(10, 8, 10, 8);
-            this.pdfViewer1.Name = "pdfViewer1";
-            this.pdfViewer1.Size = new System.Drawing.Size(2626, 1346);
-            this.pdfViewer1.TabIndex = 0;
+            this.ultraTabPageControl6.Size = new System.Drawing.Size(1038, 348);
             // 
             // ultraTabPageControl7
             // 
             this.ultraTabPageControl7.Controls.Add(this.ultraGroupBox1);
             this.ultraTabPageControl7.Controls.Add(this.ultraButton2);
-            this.ultraTabPageControl7.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabPageControl7.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraTabPageControl7.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabPageControl7.Name = "ultraTabPageControl7";
-            this.ultraTabPageControl7.Size = new System.Drawing.Size(2626, 1346);
+            this.ultraTabPageControl7.Size = new System.Drawing.Size(1038, 348);
             // 
             // ultraGroupBox1
             // 
             this.ultraGroupBox1.Controls.Add(this.textBox1);
             this.ultraGroupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ultraGroupBox1.Location = new System.Drawing.Point(0, 170);
-            this.ultraGroupBox1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraGroupBox1.Location = new System.Drawing.Point(0, 68);
             this.ultraGroupBox1.Name = "ultraGroupBox1";
-            this.ultraGroupBox1.Size = new System.Drawing.Size(2626, 1176);
+            this.ultraGroupBox1.Size = new System.Drawing.Size(1038, 280);
             this.ultraGroupBox1.TabIndex = 2;
             this.ultraGroupBox1.Text = "ტექსტი";
             // 
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(3, 46);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.textBox1.Location = new System.Drawing.Point(3, 20);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(2620, 1127);
+            this.textBox1.Size = new System.Drawing.Size(1032, 257);
             this.textBox1.TabIndex = 0;
             // 
             // ultraButton2
@@ -724,9 +710,8 @@
             this.ultraButton2.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2013Button;
             this.ultraButton2.Dock = System.Windows.Forms.DockStyle.Top;
             this.ultraButton2.Location = new System.Drawing.Point(0, 0);
-            this.ultraButton2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.ultraButton2.Name = "ultraButton2";
-            this.ultraButton2.Size = new System.Drawing.Size(2626, 170);
+            this.ultraButton2.Size = new System.Drawing.Size(1038, 68);
             this.ultraButton2.TabIndex = 1;
             this.ultraButton2.Text = resources.GetString("ultraButton2.Text");
             this.ultraButton2.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
@@ -736,30 +721,17 @@
             // 
             this.ultraTabPageControl4.Controls.Add(this.formContainer1);
             this.ultraTabPageControl4.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl4.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl4.Name = "ultraTabPageControl4";
-            this.ultraTabPageControl4.Size = new System.Drawing.Size(2630, 1485);
-            // 
-            // formContainer1
-            // 
-            this.formContainer1.AutoScroll = true;
-            this.formContainer1.AutoScrollMinSize = new System.Drawing.Size(1, 1);
-            this.formContainer1.BackColor = System.Drawing.Color.DimGray;
-            this.formContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.formContainer1.Font = new System.Drawing.Font("Sylfaen", 9F);
-            this.formContainer1.Location = new System.Drawing.Point(0, 0);
-            this.formContainer1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this.formContainer1.Name = "formContainer1";
-            this.formContainer1.Size = new System.Drawing.Size(2630, 1485);
-            this.formContainer1.TabIndex = 12;
+            this.ultraTabPageControl4.Size = new System.Drawing.Size(1040, 371);
             // 
             // ultraTabPageControl5
             // 
             this.ultraTabPageControl5.Controls.Add(this.ultraTabControl3);
-            this.ultraTabPageControl5.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabPageControl5.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl5.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl5.Name = "ultraTabPageControl5";
-            this.ultraTabPageControl5.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabPageControl5.Size = new System.Drawing.Size(1040, 371);
             // 
             // ultraTabControl3
             // 
@@ -775,14 +747,13 @@
             this.ultraTabControl3.Controls.Add(this.ultraTabPageControl7);
             this.ultraTabControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ultraTabControl3.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabControl3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.ultraTabControl3.Name = "ultraTabControl3";
             appearance4.BackColor = System.Drawing.Color.White;
             appearance4.FontData.BoldAsString = "True";
             appearance4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(115)))), ((int)(((byte)(70)))));
             this.ultraTabControl3.SelectedTabAppearance = appearance4;
             this.ultraTabControl3.SharedControlsPage = this.ultraTabSharedControlsPage3;
-            this.ultraTabControl3.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabControl3.Size = new System.Drawing.Size(1040, 371);
             this.ultraTabControl3.Style = Infragistics.Win.UltraWinTabControl.UltraTabControlStyle.Excel;
             appearance5.FontData.BoldAsString = "False";
             appearance5.FontData.SizeInPoints = 8F;
@@ -803,10 +774,9 @@
             // 
             // ultraTabSharedControlsPage3
             // 
-            this.ultraTabSharedControlsPage3.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabSharedControlsPage3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraTabSharedControlsPage3.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabSharedControlsPage3.Name = "ultraTabSharedControlsPage3";
-            this.ultraTabSharedControlsPage3.Size = new System.Drawing.Size(2626, 1346);
+            this.ultraTabSharedControlsPage3.Size = new System.Drawing.Size(1038, 348);
             // 
             // ultraTabPageControl12
             // 
@@ -818,9 +788,9 @@
             this.ultraTabPageControl12.Controls.Add(this.tableLayoutPanel2);
             this.ultraTabPageControl12.Controls.Add(this.tableLayoutPanel1);
             this.ultraTabPageControl12.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl12.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl12.Name = "ultraTabPageControl12";
-            this.ultraTabPageControl12.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabPageControl12.Size = new System.Drawing.Size(1040, 371);
             // 
             // tableLayoutPanel6
             // 
@@ -837,15 +807,14 @@
             this.tableLayoutPanel6.Controls.Add(this.LEncoding, 0, 3);
             this.tableLayoutPanel6.Controls.Add(this.CEncoding, 1, 3);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 606);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 254);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 4;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(2628, 426);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(1023, 176);
             this.tableLayoutPanel6.TabIndex = 90;
             // 
             // ultraLabel11
@@ -855,10 +824,10 @@
             appearance6.Image = global::ILG.Codex.CodexR4.Properties.Resources.comment;
             this.ultraLabel11.Appearance = appearance6;
             this.ultraLabel11.AutoSize = true;
-            this.ultraLabel11.Location = new System.Drawing.Point(30, 20);
-            this.ultraLabel11.Margin = new System.Windows.Forms.Padding(30, 20, 8, 8);
+            this.ultraLabel11.Location = new System.Drawing.Point(12, 8);
+            this.ultraLabel11.Margin = new System.Windows.Forms.Padding(12, 8, 3, 3);
             this.ultraLabel11.Name = "ultraLabel11";
-            this.ultraLabel11.Size = new System.Drawing.Size(199, 44);
+            this.ultraLabel11.Size = new System.Drawing.Size(90, 18);
             this.ultraLabel11.TabIndex = 81;
             this.ultraLabel11.Text = "კომენტარი";
             // 
@@ -868,12 +837,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel6.SetColumnSpan(this.ultraTextEditor5, 2);
             this.ultraTextEditor5.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.ultraTextEditor5.Location = new System.Drawing.Point(30, 80);
-            this.ultraTextEditor5.Margin = new System.Windows.Forms.Padding(30, 8, 30, 20);
+            this.ultraTextEditor5.Location = new System.Drawing.Point(12, 32);
+            this.ultraTextEditor5.Margin = new System.Windows.Forms.Padding(12, 3, 12, 8);
             this.ultraTextEditor5.MaxLength = 1024;
             this.ultraTextEditor5.Multiline = true;
             this.ultraTextEditor5.Name = "ultraTextEditor5";
-            this.ultraTextEditor5.Size = new System.Drawing.Size(2568, 185);
+            this.ultraTextEditor5.Size = new System.Drawing.Size(999, 74);
             this.ultraTextEditor5.TabIndex = 42;
             this.ultraTextEditor5.TextChanged += new System.EventHandler(this.textControl1_TextChanged);
             this.ultraTextEditor5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ultraTextEditor5_KeyPress);
@@ -885,10 +854,10 @@
             appearance7.Image = global::ILG.Codex.CodexR4.Properties.Resources.tag_blue;
             this.ultraLabel12.Appearance = appearance7;
             this.ultraLabel12.AutoSize = true;
-            this.ultraLabel12.Location = new System.Drawing.Point(30, 305);
-            this.ultraLabel12.Margin = new System.Windows.Forms.Padding(30, 20, 8, 8);
+            this.ultraLabel12.Location = new System.Drawing.Point(12, 122);
+            this.ultraLabel12.Margin = new System.Windows.Forms.Padding(12, 8, 3, 3);
             this.ultraLabel12.Name = "ultraLabel12";
-            this.ultraLabel12.Size = new System.Drawing.Size(400, 44);
+            this.ultraLabel12.Size = new System.Drawing.Size(170, 18);
             this.ultraLabel12.TabIndex = 82;
             this.ultraLabel12.Text = "დამატებითი ატრიბუტი";
             // 
@@ -897,11 +866,11 @@
             this.ultraTextEditor6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ultraTextEditor6.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.ultraTextEditor6.Location = new System.Drawing.Point(446, 293);
-            this.ultraTextEditor6.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
+            this.ultraTextEditor6.Location = new System.Drawing.Point(188, 117);
+            this.ultraTextEditor6.Margin = new System.Windows.Forms.Padding(3, 3, 12, 3);
             this.ultraTextEditor6.MaxLength = 1024;
             this.ultraTextEditor6.Name = "ultraTextEditor6";
-            this.ultraTextEditor6.Size = new System.Drawing.Size(2152, 51);
+            this.ultraTextEditor6.Size = new System.Drawing.Size(823, 25);
             this.ultraTextEditor6.TabIndex = 44;
             this.ultraTextEditor6.TextChanged += new System.EventHandler(this.textControl1_TextChanged);
             this.ultraTextEditor6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ultraTextEditor6_KeyPress);
@@ -911,10 +880,10 @@
             this.LEncoding.AutoSize = true;
             this.LEncoding.BackColor = System.Drawing.Color.Transparent;
             this.LEncoding.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(57)))), ((int)(((byte)(35)))));
-            this.LEncoding.Location = new System.Drawing.Point(30, 377);
-            this.LEncoding.Margin = new System.Windows.Forms.Padding(30, 20, 8, 8);
+            this.LEncoding.Location = new System.Drawing.Point(12, 153);
+            this.LEncoding.Margin = new System.Windows.Forms.Padding(12, 8, 3, 3);
             this.LEncoding.Name = "LEncoding";
-            this.LEncoding.Size = new System.Drawing.Size(378, 41);
+            this.LEncoding.Size = new System.Drawing.Size(150, 15);
             this.LEncoding.TabIndex = 54;
             this.LEncoding.Text = "დოკუმენტის კოდირება";
             // 
@@ -929,10 +898,9 @@
             this.CEncoding.Items.AddRange(new Infragistics.Win.ValueListItem[] {
             valueListItem1,
             valueListItem2});
-            this.CEncoding.Location = new System.Drawing.Point(446, 365);
-            this.CEncoding.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.CEncoding.Location = new System.Drawing.Point(188, 148);
             this.CEncoding.Name = "CEncoding";
-            this.CEncoding.Size = new System.Drawing.Size(570, 51);
+            this.CEncoding.Size = new System.Drawing.Size(228, 25);
             this.CEncoding.TabIndex = 55;
             this.CEncoding.UseAppStyling = false;
             // 
@@ -953,20 +921,19 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel5.Controls.Add(this.Status_Mandatory_Label, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.ultraLabel9, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.CStatus, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.label7, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.label17, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.ultraLabel14, 6, 0);
             this.tableLayoutPanel5.Controls.Add(this.CDocFormat, 5, 0);
             this.tableLayoutPanel5.Controls.Add(this.label18, 7, 0);
             this.tableLayoutPanel5.Controls.Add(this.CSecStatus, 8, 0);
+            this.tableLayoutPanel5.Controls.Add(this.CStatus, 2, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 536);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(0, 222);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(2628, 70);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1023, 32);
             this.tableLayoutPanel5.TabIndex = 89;
             // 
             // Status_Mandatory_Label
@@ -975,10 +942,10 @@
             this.Status_Mandatory_Label.BackColor = System.Drawing.Color.Transparent;
             this.Status_Mandatory_Label.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status_Mandatory_Label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Status_Mandatory_Label.Location = new System.Drawing.Point(205, 20);
-            this.Status_Mandatory_Label.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.Status_Mandatory_Label.Location = new System.Drawing.Point(92, 8);
+            this.Status_Mandatory_Label.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.Status_Mandatory_Label.Name = "Status_Mandatory_Label";
-            this.Status_Mandatory_Label.Size = new System.Drawing.Size(34, 50);
+            this.Status_Mandatory_Label.Size = new System.Drawing.Size(14, 19);
             this.Status_Mandatory_Label.TabIndex = 90;
             this.Status_Mandatory_Label.Text = "*";
             // 
@@ -993,81 +960,12 @@
             appearance8.TextVAlignAsString = "Middle";
             this.ultraLabel9.Appearance = appearance8;
             this.ultraLabel9.AutoSize = true;
-            this.ultraLabel9.Location = new System.Drawing.Point(30, 8);
-            this.ultraLabel9.Margin = new System.Windows.Forms.Padding(30, 8, 8, 8);
+            this.ultraLabel9.Location = new System.Drawing.Point(12, 3);
+            this.ultraLabel9.Margin = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ultraLabel9.Name = "ultraLabel9";
-            this.ultraLabel9.Size = new System.Drawing.Size(167, 54);
+            this.ultraLabel9.Size = new System.Drawing.Size(77, 26);
             this.ultraLabel9.TabIndex = 79;
             this.ultraLabel9.Text = "სტატუსი";
-            // 
-            // CStatus
-            // 
-            appearance9.BackColor = System.Drawing.Color.White;
-            appearance9.BorderColor = System.Drawing.SystemColors.InactiveCaption;
-            this.CStatus.DisplayLayout.Appearance = appearance9;
-            appearance10.BackColor = System.Drawing.Color.Honeydew;
-            ultraGridBand1.Override.HotTrackRowAppearance = appearance10;
-            this.CStatus.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
-            this.CStatus.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
-            this.CStatus.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
-            this.CStatus.DisplayLayout.DefaultSelectedBackColor = System.Drawing.Color.Honeydew;
-            appearance11.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            appearance11.BackColor2 = System.Drawing.SystemColors.ControlDark;
-            appearance11.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
-            appearance11.BorderColor = System.Drawing.SystemColors.Window;
-            this.CStatus.DisplayLayout.GroupByBox.Appearance = appearance11;
-            appearance12.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.CStatus.DisplayLayout.GroupByBox.BandLabelAppearance = appearance12;
-            this.CStatus.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
-            appearance13.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            appearance13.BackColor2 = System.Drawing.SystemColors.Control;
-            appearance13.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
-            appearance13.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.CStatus.DisplayLayout.GroupByBox.PromptAppearance = appearance13;
-            this.CStatus.DisplayLayout.MaxColScrollRegions = 1;
-            this.CStatus.DisplayLayout.MaxRowScrollRegions = 1;
-            appearance14.BackColor = System.Drawing.SystemColors.Window;
-            appearance14.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.CStatus.DisplayLayout.Override.ActiveCellAppearance = appearance14;
-            appearance15.BackColor = System.Drawing.Color.DarkGreen;
-            appearance15.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.CStatus.DisplayLayout.Override.ActiveRowAppearance = appearance15;
-            this.CStatus.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
-            this.CStatus.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
-            appearance16.BackColor = System.Drawing.SystemColors.Window;
-            this.CStatus.DisplayLayout.Override.CardAreaAppearance = appearance16;
-            appearance17.BorderColor = System.Drawing.Color.Silver;
-            appearance17.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
-            this.CStatus.DisplayLayout.Override.CellAppearance = appearance17;
-            this.CStatus.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.EditAndSelectText;
-            this.CStatus.DisplayLayout.Override.CellPadding = 0;
-            appearance18.BackColor = System.Drawing.SystemColors.Control;
-            appearance18.BackColor2 = System.Drawing.SystemColors.ControlDark;
-            appearance18.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
-            appearance18.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
-            appearance18.BorderColor = System.Drawing.SystemColors.Window;
-            this.CStatus.DisplayLayout.Override.GroupByRowAppearance = appearance18;
-            appearance19.TextHAlignAsString = "Left";
-            this.CStatus.DisplayLayout.Override.HeaderAppearance = appearance19;
-            this.CStatus.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
-            this.CStatus.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
-            appearance20.BackColor = System.Drawing.Color.White;
-            appearance20.BorderColor = System.Drawing.Color.Silver;
-            this.CStatus.DisplayLayout.Override.RowAppearance = appearance20;
-            this.CStatus.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
-            appearance21.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.CStatus.DisplayLayout.Override.TemplateAddRowAppearance = appearance21;
-            this.CStatus.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
-            this.CStatus.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
-            this.CStatus.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
-            this.CStatus.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.CStatus.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
-            this.CStatus.Location = new System.Drawing.Point(247, 8);
-            this.CStatus.Margin = new System.Windows.Forms.Padding(8, 8, 20, 8);
-            this.CStatus.Name = "CStatus";
-            this.CStatus.Size = new System.Drawing.Size(2, 52);
-            this.CStatus.TabIndex = 31;
-            this.CStatus.UseAppStyling = false;
             // 
             // label7
             // 
@@ -1075,10 +973,9 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(57)))), ((int)(((byte)(35)))));
-            this.label7.Location = new System.Drawing.Point(940, 0);
-            this.label7.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label7.Location = new System.Drawing.Point(339, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(368, 70);
+            this.label7.Size = new System.Drawing.Size(147, 32);
             this.label7.TabIndex = 37;
             this.label7.Text = "დოკუმენტის ფორმატი";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1089,10 +986,10 @@
             this.label17.BackColor = System.Drawing.Color.Transparent;
             this.label17.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label17.Location = new System.Drawing.Point(1316, 0);
-            this.label17.Margin = new System.Windows.Forms.Padding(0, 0, 8, 0);
+            this.label17.Location = new System.Drawing.Point(489, 0);
+            this.label17.Margin = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(34, 50);
+            this.label17.Size = new System.Drawing.Size(14, 19);
             this.label17.TabIndex = 51;
             this.label17.Text = "*";
             // 
@@ -1100,16 +997,15 @@
             // 
             this.ultraLabel14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            appearance22.BackColor = System.Drawing.Color.Transparent;
-            appearance22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(57)))), ((int)(((byte)(35)))));
-            appearance22.Image = global::ILG.Codex.CodexR4.Properties.Resources.secure;
-            appearance22.TextVAlignAsString = "Middle";
-            this.ultraLabel14.Appearance = appearance22;
+            appearance9.BackColor = System.Drawing.Color.Transparent;
+            appearance9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(57)))), ((int)(((byte)(35)))));
+            appearance9.Image = global::ILG.Codex.CodexR4.Properties.Resources.secure;
+            appearance9.TextVAlignAsString = "Middle";
+            this.ultraLabel14.Appearance = appearance9;
             this.ultraLabel14.AutoSize = true;
-            this.ultraLabel14.Location = new System.Drawing.Point(1662, 8);
-            this.ultraLabel14.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraLabel14.Location = new System.Drawing.Point(627, 3);
             this.ultraLabel14.Name = "ultraLabel14";
-            this.ultraLabel14.Size = new System.Drawing.Size(270, 54);
+            this.ultraLabel14.Size = new System.Drawing.Size(118, 26);
             this.ultraLabel14.TabIndex = 84;
             this.ultraLabel14.Text = "დაშვების დონე";
             // 
@@ -1124,10 +1020,9 @@
             this.CDocFormat.Items.AddRange(new Infragistics.Win.ValueListItem[] {
             valueListItem5,
             valueListItem6});
-            this.CDocFormat.Location = new System.Drawing.Point(1366, 8);
-            this.CDocFormat.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.CDocFormat.Location = new System.Drawing.Point(509, 3);
             this.CDocFormat.Name = "CDocFormat";
-            this.CDocFormat.Size = new System.Drawing.Size(280, 51);
+            this.CDocFormat.Size = new System.Drawing.Size(112, 25);
             this.CDocFormat.TabIndex = 45;
             this.CDocFormat.UseAppStyling = false;
             this.CDocFormat.ValueChanged += new System.EventHandler(this.CDocFormat_ValueChanged);
@@ -1138,10 +1033,9 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label18.Location = new System.Drawing.Point(1948, 0);
-            this.label18.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label18.Location = new System.Drawing.Point(751, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(34, 50);
+            this.label18.Size = new System.Drawing.Size(14, 19);
             this.label18.TabIndex = 52;
             this.label18.Text = "*";
             // 
@@ -1158,13 +1052,82 @@
             this.CSecStatus.Items.AddRange(new Infragistics.Win.ValueListItem[] {
             valueListItem3,
             valueListItem4});
-            this.CSecStatus.Location = new System.Drawing.Point(1998, 8);
-            this.CSecStatus.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
+            this.CSecStatus.Location = new System.Drawing.Point(771, 3);
+            this.CSecStatus.Margin = new System.Windows.Forms.Padding(3, 3, 12, 3);
             this.CSecStatus.Name = "CSecStatus";
-            this.CSecStatus.Size = new System.Drawing.Size(600, 51);
+            this.CSecStatus.Size = new System.Drawing.Size(240, 25);
             this.CSecStatus.TabIndex = 46;
             this.CSecStatus.UseAppStyling = false;
             this.CSecStatus.ValueChanged += new System.EventHandler(this.CSecStatus_ValueChanged);
+            // 
+            // CStatus
+            // 
+            appearance10.BackColor = System.Drawing.Color.White;
+            appearance10.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.CStatus.DisplayLayout.Appearance = appearance10;
+            appearance11.BackColor = System.Drawing.Color.Honeydew;
+            ultraGridBand1.Override.HotTrackRowAppearance = appearance11;
+            this.CStatus.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
+            this.CStatus.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.CStatus.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+            this.CStatus.DisplayLayout.DefaultSelectedBackColor = System.Drawing.Color.Honeydew;
+            appearance12.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            appearance12.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance12.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
+            appearance12.BorderColor = System.Drawing.SystemColors.Window;
+            this.CStatus.DisplayLayout.GroupByBox.Appearance = appearance12;
+            appearance13.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.CStatus.DisplayLayout.GroupByBox.BandLabelAppearance = appearance13;
+            this.CStatus.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            appearance14.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            appearance14.BackColor2 = System.Drawing.SystemColors.Control;
+            appearance14.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance14.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.CStatus.DisplayLayout.GroupByBox.PromptAppearance = appearance14;
+            this.CStatus.DisplayLayout.MaxColScrollRegions = 1;
+            this.CStatus.DisplayLayout.MaxRowScrollRegions = 1;
+            appearance15.BackColor = System.Drawing.SystemColors.Window;
+            appearance15.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.CStatus.DisplayLayout.Override.ActiveCellAppearance = appearance15;
+            appearance16.BackColor = System.Drawing.Color.DarkGreen;
+            appearance16.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.CStatus.DisplayLayout.Override.ActiveRowAppearance = appearance16;
+            this.CStatus.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.CStatus.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+            appearance17.BackColor = System.Drawing.SystemColors.Window;
+            this.CStatus.DisplayLayout.Override.CardAreaAppearance = appearance17;
+            appearance18.BorderColor = System.Drawing.Color.Silver;
+            appearance18.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
+            this.CStatus.DisplayLayout.Override.CellAppearance = appearance18;
+            this.CStatus.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.EditAndSelectText;
+            this.CStatus.DisplayLayout.Override.CellPadding = 0;
+            appearance19.BackColor = System.Drawing.SystemColors.Control;
+            appearance19.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance19.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
+            appearance19.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance19.BorderColor = System.Drawing.SystemColors.Window;
+            this.CStatus.DisplayLayout.Override.GroupByRowAppearance = appearance19;
+            appearance20.TextHAlignAsString = "Left";
+            this.CStatus.DisplayLayout.Override.HeaderAppearance = appearance20;
+            this.CStatus.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+            this.CStatus.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+            appearance21.BackColor = System.Drawing.Color.White;
+            appearance21.BorderColor = System.Drawing.Color.Silver;
+            this.CStatus.DisplayLayout.Override.RowAppearance = appearance21;
+            this.CStatus.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+            appearance22.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.CStatus.DisplayLayout.Override.TemplateAddRowAppearance = appearance22;
+            this.CStatus.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+            this.CStatus.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+            this.CStatus.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
+            this.CStatus.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
+            this.CStatus.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
+            this.CStatus.Location = new System.Drawing.Point(109, 3);
+            this.CStatus.Margin = new System.Windows.Forms.Padding(3, 3, 8, 3);
+            this.CStatus.Name = "CStatus";
+            this.CStatus.Size = new System.Drawing.Size(219, 26);
+            this.CStatus.TabIndex = 31;
+            this.CStatus.UseAppStyling = false;
             // 
             // tableLayoutPanel4
             // 
@@ -1185,12 +1148,11 @@
             this.tableLayoutPanel4.Controls.Add(this.button19, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.button18, 5, 0);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 456);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 185);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(2628, 80);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1023, 37);
             this.tableLayoutPanel4.TabIndex = 88;
             // 
             // ultraLabel10
@@ -1201,10 +1163,10 @@
             appearance23.Image = global::ILG.Codex.CodexR4.Properties.Resources.notepad_open1;
             this.ultraLabel10.Appearance = appearance23;
             this.ultraLabel10.AutoSize = true;
-            this.ultraLabel10.Location = new System.Drawing.Point(30, 14);
-            this.ultraLabel10.Margin = new System.Windows.Forms.Padding(30, 0, 8, 8);
+            this.ultraLabel10.Location = new System.Drawing.Point(12, 8);
+            this.ultraLabel10.Margin = new System.Windows.Forms.Padding(12, 0, 3, 3);
             this.ultraLabel10.Name = "ultraLabel10";
-            this.ultraLabel10.Size = new System.Drawing.Size(321, 44);
+            this.ultraLabel10.Size = new System.Drawing.Size(138, 18);
             this.ultraLabel10.TabIndex = 80;
             this.ultraLabel10.Text = "საკვანძო სიტყვები";
             // 
@@ -1212,12 +1174,12 @@
             // 
             this.EWord.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.EWord.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.EWord.Location = new System.Drawing.Point(367, 20);
-            this.EWord.Margin = new System.Windows.Forms.Padding(8, 20, 8, 8);
+            this.EWord.Location = new System.Drawing.Point(156, 8);
+            this.EWord.Margin = new System.Windows.Forms.Padding(3, 8, 3, 3);
             this.EWord.MaxLength = 2048;
             this.EWord.Name = "EWord";
             this.EWord.ReadOnly = true;
-            this.EWord.Size = new System.Drawing.Size(1399, 51);
+            this.EWord.Size = new System.Drawing.Size(484, 25);
             this.EWord.TabIndex = 29;
             this.EWord.TextChanged += new System.EventHandler(this.textControl1_TextChanged);
             // 
@@ -1283,11 +1245,11 @@
             this.CWords.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
             this.CWords.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
             this.CWords.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.CWords.Location = new System.Drawing.Point(1794, 20);
-            this.CWords.Margin = new System.Windows.Forms.Padding(20, 20, 20, 8);
-            this.CWords.MinimumSize = new System.Drawing.Size(585, 0);
+            this.CWords.Location = new System.Drawing.Point(651, 8);
+            this.CWords.Margin = new System.Windows.Forms.Padding(8, 8, 8, 3);
+            this.CWords.MinimumSize = new System.Drawing.Size(234, 0);
             this.CWords.Name = "CWords";
-            this.CWords.Size = new System.Drawing.Size(678, 52);
+            this.CWords.Size = new System.Drawing.Size(271, 26);
             this.CWords.TabIndex = 30;
             this.CWords.UseAppStyling = false;
             // 
@@ -1299,8 +1261,8 @@
             this.button20.FlatAppearance.BorderSize = 0;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Image = ((System.Drawing.Image)(resources.GetObject("button20.Image")));
-            this.button20.Location = new System.Drawing.Point(2500, 24);
-            this.button20.Margin = new System.Windows.Forms.Padding(8, 10, 8, 20);
+            this.button20.Location = new System.Drawing.Point(933, 5);
+            this.button20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 8);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(22, 22);
             this.button20.TabIndex = 15;
@@ -1314,8 +1276,8 @@
             this.button19.FlatAppearance.BorderSize = 0;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button19.Image = ((System.Drawing.Image)(resources.GetObject("button19.Image")));
-            this.button19.Location = new System.Drawing.Point(2538, 29);
-            this.button19.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.button19.Location = new System.Drawing.Point(961, 7);
+            this.button19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(22, 22);
             this.button19.TabIndex = 16;
@@ -1329,8 +1291,8 @@
             this.button18.FlatAppearance.BorderSize = 0;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Image = ((System.Drawing.Image)(resources.GetObject("button18.Image")));
-            this.button18.Location = new System.Drawing.Point(2576, 29);
-            this.button18.Margin = new System.Windows.Forms.Padding(8, 10, 30, 10);
+            this.button18.Location = new System.Drawing.Point(989, 7);
+            this.button18.Margin = new System.Windows.Forms.Padding(3, 4, 12, 4);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(22, 22);
             this.button18.TabIndex = 17;
@@ -1370,13 +1332,12 @@
             this.tableLayoutPanel2.Controls.Add(this.ultraTextEditor2, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.Number_Mandatory_Label, 1, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 290);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 116);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(2628, 166);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1023, 69);
             this.tableLayoutPanel2.TabIndex = 87;
             // 
             // tableLayoutPanel3
@@ -1388,22 +1349,20 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.Controls.Add(this.EDate1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.ultraButton7, 1, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(1142, 80);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(477, 35);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(594, 78);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(237, 31);
             this.tableLayoutPanel3.TabIndex = 88;
             // 
             // EDate1
             // 
             this.EDate1.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.EDate1.Location = new System.Drawing.Point(8, 8);
-            this.EDate1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.EDate1.Location = new System.Drawing.Point(3, 3);
             this.EDate1.Name = "EDate1";
             this.EDate1.ReadOnly = true;
-            this.EDate1.Size = new System.Drawing.Size(500, 51);
+            this.EDate1.Size = new System.Drawing.Size(200, 25);
             this.EDate1.TabIndex = 26;
             this.EDate1.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
             // 
@@ -1412,10 +1371,9 @@
             appearance37.Image = global::ILG.Codex.CodexR4.Properties.Resources.Up3;
             this.ultraButton7.Appearance = appearance37;
             this.ultraButton7.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2013ScrollbarButton;
-            this.ultraButton7.Location = new System.Drawing.Point(524, 8);
-            this.ultraButton7.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraButton7.Location = new System.Drawing.Point(209, 3);
             this.ultraButton7.Name = "ultraButton7";
-            this.ultraButton7.Size = new System.Drawing.Size(62, 62);
+            this.ultraButton7.Size = new System.Drawing.Size(25, 25);
             this.ultraButton7.TabIndex = 27;
             this.ultraButton7.Click += new System.EventHandler(this.ultraButton7_Click);
             // 
@@ -1426,10 +1384,10 @@
             appearance38.Image = global::ILG.Codex.CodexR4.Properties.Resources.employee;
             this.ultraLabel5.Appearance = appearance38;
             this.ultraLabel5.AutoSize = true;
-            this.ultraLabel5.Location = new System.Drawing.Point(30, 20);
-            this.ultraLabel5.Margin = new System.Windows.Forms.Padding(30, 20, 8, 8);
+            this.ultraLabel5.Location = new System.Drawing.Point(12, 8);
+            this.ultraLabel5.Margin = new System.Windows.Forms.Padding(12, 8, 3, 3);
             this.ultraLabel5.Name = "ultraLabel5";
-            this.ultraLabel5.Size = new System.Drawing.Size(287, 44);
+            this.ultraLabel5.Size = new System.Drawing.Size(125, 18);
             this.ultraLabel5.TabIndex = 74;
             this.ultraLabel5.Text = "მიმღები ორგანო";
             // 
@@ -1439,10 +1397,10 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label11.Location = new System.Drawing.Point(325, 20);
-            this.label11.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.label11.Location = new System.Drawing.Point(140, 8);
+            this.label11.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(34, 50);
+            this.label11.Size = new System.Drawing.Size(14, 19);
             this.label11.TabIndex = 48;
             this.label11.Text = "*";
             // 
@@ -1511,10 +1469,9 @@
             this.CAuthor.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
             this.CAuthor.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
             this.CAuthor.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
-            this.CAuthor.Location = new System.Drawing.Point(367, 8);
-            this.CAuthor.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.CAuthor.Location = new System.Drawing.Point(157, 3);
             this.CAuthor.Name = "CAuthor";
-            this.CAuthor.Size = new System.Drawing.Size(555, 52);
+            this.CAuthor.Size = new System.Drawing.Size(222, 26);
             this.CAuthor.TabIndex = 20;
             this.CAuthor.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
             // 
@@ -1526,10 +1483,10 @@
             appearance54.Image = global::ILG.Codex.CodexR4.Properties.Resources.calendar;
             this.ultraLabel13.Appearance = appearance54;
             this.ultraLabel13.AutoSize = true;
-            this.ultraLabel13.Location = new System.Drawing.Point(938, 93);
-            this.ultraLabel13.Margin = new System.Windows.Forms.Padding(8, 0, 8, 8);
+            this.ultraLabel13.Location = new System.Drawing.Point(385, 40);
+            this.ultraLabel13.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.ultraLabel13.Name = "ultraLabel13";
-            this.ultraLabel13.Size = new System.Drawing.Size(154, 44);
+            this.ultraLabel13.Size = new System.Drawing.Size(72, 18);
             this.ultraLabel13.TabIndex = 83;
             this.ultraLabel13.Text = "თარიღი";
             // 
@@ -1541,10 +1498,10 @@
             appearance55.Image = global::ILG.Codex.CodexR4.Properties.Resources.documents1;
             this.ultraLabel6.Appearance = appearance55;
             this.ultraLabel6.AutoSize = true;
-            this.ultraLabel6.Location = new System.Drawing.Point(960, 14);
-            this.ultraLabel6.Margin = new System.Windows.Forms.Padding(30, 8, 8, 8);
+            this.ultraLabel6.Location = new System.Drawing.Point(394, 7);
+            this.ultraLabel6.Margin = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ultraLabel6.Name = "ultraLabel6";
-            this.ultraLabel6.Size = new System.Drawing.Size(104, 44);
+            this.ultraLabel6.Size = new System.Drawing.Size(52, 18);
             this.ultraLabel6.TabIndex = 75;
             this.ultraLabel6.Text = "ტიპი";
             // 
@@ -1554,10 +1511,10 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label12.Location = new System.Drawing.Point(1100, 20);
-            this.label12.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.label12.Location = new System.Drawing.Point(460, 8);
+            this.label12.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(34, 50);
+            this.label12.Size = new System.Drawing.Size(14, 19);
             this.label12.TabIndex = 49;
             this.label12.Text = "*";
             // 
@@ -1623,10 +1580,9 @@
             this.CType.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
             this.CType.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
             this.CType.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
-            this.CType.Location = new System.Drawing.Point(1142, 8);
-            this.CType.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.CType.Location = new System.Drawing.Point(477, 3);
             this.CType.Name = "CType";
-            this.CType.Size = new System.Drawing.Size(655, 52);
+            this.CType.Size = new System.Drawing.Size(262, 26);
             this.CType.TabIndex = 21;
             this.CType.UseAppStyling = false;
             // 
@@ -1638,10 +1594,10 @@
             appearance69.Image = global::ILG.Codex.CodexR4.Properties.Resources.book_open2;
             this.ultraLabel8.Appearance = appearance69;
             this.ultraLabel8.AutoSize = true;
-            this.ultraLabel8.Location = new System.Drawing.Point(1813, 93);
-            this.ultraLabel8.Margin = new System.Windows.Forms.Padding(8, 0, 8, 8);
+            this.ultraLabel8.Location = new System.Drawing.Point(745, 40);
+            this.ultraLabel8.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.ultraLabel8.Name = "ultraLabel8";
-            this.ultraLabel8.Size = new System.Drawing.Size(178, 44);
+            this.ultraLabel8.Size = new System.Drawing.Size(81, 18);
             this.ultraLabel8.TabIndex = 78;
             this.ultraLabel8.Text = "თემატიკა";
             // 
@@ -1653,10 +1609,10 @@
             appearance70.Image = global::ILG.Codex.CodexR4.Properties.Resources.archive1;
             this.ultraLabel7.Appearance = appearance70;
             this.ultraLabel7.AutoSize = true;
-            this.ultraLabel7.Location = new System.Drawing.Point(1835, 14);
-            this.ultraLabel7.Margin = new System.Windows.Forms.Padding(30, 8, 8, 8);
+            this.ultraLabel7.Location = new System.Drawing.Point(754, 7);
+            this.ultraLabel7.Margin = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ultraLabel7.Name = "ultraLabel7";
-            this.ultraLabel7.Size = new System.Drawing.Size(197, 44);
+            this.ultraLabel7.Size = new System.Drawing.Size(89, 18);
             this.ultraLabel7.TabIndex = 77;
             this.ultraLabel7.Text = "კატეგორია";
             // 
@@ -1666,10 +1622,10 @@
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label21.Location = new System.Drawing.Point(2040, 92);
-            this.label21.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.label21.Location = new System.Drawing.Point(846, 40);
+            this.label21.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(34, 50);
+            this.label21.Size = new System.Drawing.Size(14, 19);
             this.label21.TabIndex = 53;
             this.label21.Text = "*";
             // 
@@ -1737,10 +1693,10 @@
             this.CCategory.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
             this.CCategory.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
             this.CCategory.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
-            this.CCategory.Location = new System.Drawing.Point(2082, 8);
-            this.CCategory.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
+            this.CCategory.Location = new System.Drawing.Point(863, 3);
+            this.CCategory.Margin = new System.Windows.Forms.Padding(3, 3, 12, 3);
             this.CCategory.Name = "CCategory";
-            this.CCategory.Size = new System.Drawing.Size(516, 52);
+            this.CCategory.Size = new System.Drawing.Size(148, 26);
             this.CCategory.TabIndex = 23;
             this.CCategory.UseAppStyling = false;
             // 
@@ -1750,10 +1706,10 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(57)))), ((int)(((byte)(35)))));
-            this.label5.Location = new System.Drawing.Point(30, 98);
-            this.label5.Margin = new System.Windows.Forms.Padding(30, 0, 8, 0);
+            this.label5.Location = new System.Drawing.Point(12, 43);
+            this.label5.Margin = new System.Windows.Forms.Padding(12, 0, 3, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 41);
+            this.label5.Size = new System.Drawing.Size(52, 15);
             this.label5.TabIndex = 9;
             this.label5.Text = "ნომერი";
             // 
@@ -1763,10 +1719,10 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label13.Location = new System.Drawing.Point(1100, 92);
-            this.label13.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.label13.Location = new System.Drawing.Point(460, 40);
+            this.label13.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(34, 50);
+            this.label13.Size = new System.Drawing.Size(14, 19);
             this.label13.TabIndex = 50;
             this.label13.Text = "*";
             // 
@@ -1834,10 +1790,10 @@
             this.CSbject.DisplayLayout.ViewStyleBand = Infragistics.Win.UltraWinGrid.ViewStyleBand.OutlookGroupBy;
             this.CSbject.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
             this.CSbject.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;
-            this.CSbject.Location = new System.Drawing.Point(2082, 92);
-            this.CSbject.Margin = new System.Windows.Forms.Padding(8, 20, 30, 8);
+            this.CSbject.Location = new System.Drawing.Point(863, 40);
+            this.CSbject.Margin = new System.Windows.Forms.Padding(3, 8, 12, 3);
             this.CSbject.Name = "CSbject";
-            this.CSbject.Size = new System.Drawing.Size(516, 52);
+            this.CSbject.Size = new System.Drawing.Size(148, 26);
             this.CSbject.TabIndex = 25;
             this.CSbject.UseAppStyling = false;
             // 
@@ -1847,21 +1803,21 @@
             this.Category_Mandatory_Label.BackColor = System.Drawing.Color.Transparent;
             this.Category_Mandatory_Label.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Category_Mandatory_Label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Category_Mandatory_Label.Location = new System.Drawing.Point(2040, 20);
-            this.Category_Mandatory_Label.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.Category_Mandatory_Label.Location = new System.Drawing.Point(846, 8);
+            this.Category_Mandatory_Label.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.Category_Mandatory_Label.Name = "Category_Mandatory_Label";
-            this.Category_Mandatory_Label.Size = new System.Drawing.Size(34, 50);
+            this.Category_Mandatory_Label.Size = new System.Drawing.Size(14, 19);
             this.Category_Mandatory_Label.TabIndex = 89;
             this.Category_Mandatory_Label.Text = "*";
             // 
             // ultraTextEditor2
             // 
             this.ultraTextEditor2.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.ultraTextEditor2.Location = new System.Drawing.Point(367, 92);
-            this.ultraTextEditor2.Margin = new System.Windows.Forms.Padding(8, 20, 8, 8);
+            this.ultraTextEditor2.Location = new System.Drawing.Point(157, 40);
+            this.ultraTextEditor2.Margin = new System.Windows.Forms.Padding(3, 8, 3, 3);
             this.ultraTextEditor2.MaxLength = 64;
             this.ultraTextEditor2.Name = "ultraTextEditor2";
-            this.ultraTextEditor2.Size = new System.Drawing.Size(370, 51);
+            this.ultraTextEditor2.Size = new System.Drawing.Size(148, 25);
             this.ultraTextEditor2.TabIndex = 24;
             this.ultraTextEditor2.TextChanged += new System.EventHandler(this.textControl1_TextChanged);
             // 
@@ -1871,10 +1827,10 @@
             this.Number_Mandatory_Label.BackColor = System.Drawing.Color.Transparent;
             this.Number_Mandatory_Label.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number_Mandatory_Label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Number_Mandatory_Label.Location = new System.Drawing.Point(325, 92);
-            this.Number_Mandatory_Label.Margin = new System.Windows.Forms.Padding(0, 20, 0, 0);
+            this.Number_Mandatory_Label.Location = new System.Drawing.Point(140, 40);
+            this.Number_Mandatory_Label.Margin = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.Number_Mandatory_Label.Name = "Number_Mandatory_Label";
-            this.Number_Mandatory_Label.Size = new System.Drawing.Size(34, 50);
+            this.Number_Mandatory_Label.Size = new System.Drawing.Size(14, 19);
             this.Number_Mandatory_Label.TabIndex = 90;
             this.Number_Mandatory_Label.Text = "*";
             // 
@@ -1891,12 +1847,11 @@
             this.tableLayoutPanel1.Controls.Add(this.ultraTextEditor1, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(2628, 290);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1023, 116);
             this.tableLayoutPanel1.TabIndex = 86;
             // 
             // label10
@@ -1905,10 +1860,10 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Sylfaen", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label10.Location = new System.Drawing.Point(403, 20);
-            this.label10.Margin = new System.Windows.Forms.Padding(0, 20, 8, 0);
+            this.label10.Location = new System.Drawing.Point(161, 8);
+            this.label10.Margin = new System.Windows.Forms.Padding(0, 8, 3, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(34, 50);
+            this.label10.Size = new System.Drawing.Size(14, 19);
             this.label10.TabIndex = 47;
             this.label10.Text = "*";
             // 
@@ -1918,10 +1873,10 @@
             appearance97.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(57)))), ((int)(((byte)(35)))));
             this.ultraLabel15.Appearance = appearance97;
             this.ultraLabel15.AutoSize = true;
-            this.ultraLabel15.Location = new System.Drawing.Point(30, 20);
-            this.ultraLabel15.Margin = new System.Windows.Forms.Padding(30, 20, 8, 8);
+            this.ultraLabel15.Location = new System.Drawing.Point(12, 8);
+            this.ultraLabel15.Margin = new System.Windows.Forms.Padding(12, 8, 3, 3);
             this.ultraLabel15.Name = "ultraLabel15";
-            this.ultraLabel15.Size = new System.Drawing.Size(365, 44);
+            this.ultraLabel15.Size = new System.Drawing.Size(146, 18);
             this.ultraLabel15.TabIndex = 85;
             this.ultraLabel15.Text = "დოკუმენტის სათაური";
             // 
@@ -1931,12 +1886,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.SetColumnSpan(this.ultraTextEditor1, 2);
             this.ultraTextEditor1.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.ultraTextEditor1.Location = new System.Drawing.Point(30, 80);
-            this.ultraTextEditor1.Margin = new System.Windows.Forms.Padding(30, 8, 30, 20);
+            this.ultraTextEditor1.Location = new System.Drawing.Point(12, 32);
+            this.ultraTextEditor1.Margin = new System.Windows.Forms.Padding(12, 3, 12, 8);
             this.ultraTextEditor1.MaxLength = 1024;
             this.ultraTextEditor1.Multiline = true;
             this.ultraTextEditor1.Name = "ultraTextEditor1";
-            this.ultraTextEditor1.Size = new System.Drawing.Size(2568, 190);
+            this.ultraTextEditor1.Size = new System.Drawing.Size(1027, 76);
             this.ultraTextEditor1.TabIndex = 19;
             this.ultraTextEditor1.TextChanged += new System.EventHandler(this.textControl1_TextChanged);
             this.ultraTextEditor1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ultraTextEditor1_KeyPress_1);
@@ -1947,9 +1902,9 @@
             this.ultraTabPageControl16.Controls.Add(this.tableLayoutPanel8);
             this.ultraTabPageControl16.Controls.Add(this.tableLayoutPanel7);
             this.ultraTabPageControl16.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl16.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl16.Name = "ultraTabPageControl16";
-            this.ultraTabPageControl16.Size = new System.Drawing.Size(2628, 300);
+            this.ultraTabPageControl16.Size = new System.Drawing.Size(1040, 120);
             // 
             // tableLayoutPanel8
             // 
@@ -1963,12 +1918,11 @@
             this.tableLayoutPanel8.Controls.Add(this.ELinkCaption, 1, 0);
             this.tableLayoutPanel8.Controls.Add(this.CLinkOperation, 2, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 146);
-            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 60);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(2628, 74);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1040, 31);
             this.tableLayoutPanel8.TabIndex = 54;
             // 
             // ultraLabel3
@@ -1979,10 +1933,10 @@
             appearance98.Image = global::ILG.Codex.CodexR4.Properties.Resources.link;
             this.ultraLabel3.Appearance = appearance98;
             this.ultraLabel3.AutoSize = true;
-            this.ultraLabel3.Location = new System.Drawing.Point(30, 15);
-            this.ultraLabel3.Margin = new System.Windows.Forms.Padding(30, 8, 8, 8);
+            this.ultraLabel3.Location = new System.Drawing.Point(12, 6);
+            this.ultraLabel3.Margin = new System.Windows.Forms.Padding(12, 3, 3, 3);
             this.ultraLabel3.Name = "ultraLabel3";
-            this.ultraLabel3.Size = new System.Drawing.Size(301, 44);
+            this.ultraLabel3.Size = new System.Drawing.Size(130, 18);
             this.ultraLabel3.TabIndex = 6;
             this.ultraLabel3.Text = "კავშირის სახელი";
             // 
@@ -1990,11 +1944,10 @@
             // 
             this.ELinkCaption.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.ELinkCaption.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.ELinkCaption.Location = new System.Drawing.Point(347, 11);
-            this.ELinkCaption.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ELinkCaption.Location = new System.Drawing.Point(148, 3);
             this.ELinkCaption.MaxLength = 255;
             this.ELinkCaption.Name = "ELinkCaption";
-            this.ELinkCaption.Size = new System.Drawing.Size(1933, 51);
+            this.ELinkCaption.Size = new System.Drawing.Size(753, 25);
             this.ELinkCaption.TabIndex = 5;
             this.ELinkCaption.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ELinkCaption_KeyPress);
             // 
@@ -2005,10 +1958,10 @@
             appearance99.Image = global::ILG.Codex.CodexR4.Properties.Resources.install;
             this.CLinkOperation.Appearance = appearance99;
             this.CLinkOperation.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2013Button;
-            this.CLinkOperation.Location = new System.Drawing.Point(2296, 8);
-            this.CLinkOperation.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
+            this.CLinkOperation.Location = new System.Drawing.Point(907, 4);
+            this.CLinkOperation.Margin = new System.Windows.Forms.Padding(3, 3, 12, 3);
             this.CLinkOperation.Name = "CLinkOperation";
-            this.CLinkOperation.Size = new System.Drawing.Size(302, 58);
+            this.CLinkOperation.Size = new System.Drawing.Size(121, 23);
             this.CLinkOperation.TabIndex = 51;
             this.CLinkOperation.Text = "დამატება";
             this.CLinkOperation.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
@@ -2039,12 +1992,11 @@
             this.tableLayoutPanel7.Controls.Add(this.CLinkID, 1, 1);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(2628, 146);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(1040, 60);
             this.tableLayoutPanel7.TabIndex = 53;
             // 
             // ultraLabel1
@@ -2053,10 +2005,10 @@
             appearance100.ForeColor = System.Drawing.Color.Black;
             this.ultraLabel1.Appearance = appearance100;
             this.ultraLabel1.AutoSize = true;
-            this.ultraLabel1.Location = new System.Drawing.Point(30, 20);
-            this.ultraLabel1.Margin = new System.Windows.Forms.Padding(30, 20, 8, 8);
+            this.ultraLabel1.Location = new System.Drawing.Point(12, 8);
+            this.ultraLabel1.Margin = new System.Windows.Forms.Padding(12, 8, 3, 3);
             this.ultraLabel1.Name = "ultraLabel1";
-            this.ultraLabel1.Size = new System.Drawing.Size(244, 44);
+            this.ultraLabel1.Size = new System.Drawing.Size(98, 18);
             this.ultraLabel1.TabIndex = 0;
             this.ultraLabel1.Text = "კავშირის ტიპი";
             // 
@@ -2065,10 +2017,9 @@
             appearance101.ForeColor = System.Drawing.Color.Black;
             this.ultraButton3.Appearance = appearance101;
             this.ultraButton3.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2013ScrollbarButton;
-            this.ultraButton3.Location = new System.Drawing.Point(1018, 80);
-            this.ultraButton3.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraButton3.Location = new System.Drawing.Point(407, 32);
             this.ultraButton3.Name = "ultraButton3";
-            this.ultraButton3.Size = new System.Drawing.Size(40, 58);
+            this.ultraButton3.Size = new System.Drawing.Size(16, 23);
             this.ultraButton3.TabIndex = 52;
             this.ultraButton3.Text = ".";
             this.ultraButton3.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
@@ -2087,19 +2038,19 @@
             this.CLinkAccess.Items.AddRange(new Infragistics.Win.ValueListItem[] {
             valueListItem7,
             valueListItem8});
-            this.CLinkAccess.Location = new System.Drawing.Point(2143, 80);
-            this.CLinkAccess.Margin = new System.Windows.Forms.Padding(8, 8, 30, 8);
+            this.CLinkAccess.Location = new System.Drawing.Point(846, 32);
+            this.CLinkAccess.Margin = new System.Windows.Forms.Padding(3, 3, 12, 3);
             this.CLinkAccess.Name = "CLinkAccess";
-            this.CLinkAccess.Size = new System.Drawing.Size(455, 51);
+            this.CLinkAccess.Size = new System.Drawing.Size(182, 25);
             this.CLinkAccess.TabIndex = 48;
             // 
             // ElinkOrder
             // 
             this.ElinkOrder.DisplayStyle = Infragistics.Win.EmbeddableElementDisplayStyle.Office2013;
-            this.ElinkOrder.Location = new System.Drawing.Point(1086, 80);
-            this.ElinkOrder.Margin = new System.Windows.Forms.Padding(20, 8, 8, 8);
+            this.ElinkOrder.Location = new System.Drawing.Point(434, 32);
+            this.ElinkOrder.Margin = new System.Windows.Forms.Padding(8, 3, 3, 3);
             this.ElinkOrder.Name = "ElinkOrder";
-            this.ElinkOrder.Size = new System.Drawing.Size(298, 51);
+            this.ElinkOrder.Size = new System.Drawing.Size(119, 25);
             this.ElinkOrder.TabIndex = 49;
             this.ElinkOrder.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ElinkOrder_KeyPress);
             // 
@@ -2109,10 +2060,9 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(1873, 88);
-            this.label8.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label8.Location = new System.Drawing.Point(739, 37);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(254, 41);
+            this.label8.Size = new System.Drawing.Size(101, 15);
             this.label8.TabIndex = 47;
             this.label8.Text = "დაშვების დონე";
             // 
@@ -2122,10 +2072,10 @@
             appearance102.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.ultraLabel4.Appearance = appearance102;
             this.ultraLabel4.AutoSize = true;
-            this.ultraLabel4.Location = new System.Drawing.Point(1086, 20);
-            this.ultraLabel4.Margin = new System.Windows.Forms.Padding(20, 20, 8, 8);
+            this.ultraLabel4.Location = new System.Drawing.Point(434, 8);
+            this.ultraLabel4.Margin = new System.Windows.Forms.Padding(8, 8, 3, 3);
             this.ultraLabel4.Name = "ultraLabel4";
-            this.ultraLabel4.Size = new System.Drawing.Size(205, 44);
+            this.ultraLabel4.Size = new System.Drawing.Size(82, 18);
             this.ultraLabel4.TabIndex = 50;
             this.ultraLabel4.Text = "მიმდევრობა";
             // 
@@ -2152,10 +2102,10 @@
             valueListItem12,
             valueListItem13,
             valueListItem14});
-            this.CLinkType.Location = new System.Drawing.Point(30, 80);
-            this.CLinkType.Margin = new System.Windows.Forms.Padding(30, 8, 20, 8);
+            this.CLinkType.Location = new System.Drawing.Point(12, 32);
+            this.CLinkType.Margin = new System.Windows.Forms.Padding(12, 3, 8, 3);
             this.CLinkType.Name = "CLinkType";
-            this.CLinkType.Size = new System.Drawing.Size(560, 51);
+            this.CLinkType.Size = new System.Drawing.Size(224, 25);
             this.CLinkType.TabIndex = 2;
             // 
             // ultraLabel2
@@ -2164,10 +2114,10 @@
             appearance103.ForeColor = System.Drawing.Color.Black;
             this.ultraLabel2.Appearance = appearance103;
             this.ultraLabel2.AutoSize = true;
-            this.ultraLabel2.Location = new System.Drawing.Point(618, 20);
-            this.ultraLabel2.Margin = new System.Windows.Forms.Padding(8, 20, 8, 8);
+            this.ultraLabel2.Location = new System.Drawing.Point(247, 8);
+            this.ultraLabel2.Margin = new System.Windows.Forms.Padding(3, 8, 3, 3);
             this.ultraLabel2.Name = "ultraLabel2";
-            this.ultraLabel2.Size = new System.Drawing.Size(252, 44);
+            this.ultraLabel2.Size = new System.Drawing.Size(101, 18);
             this.ultraLabel2.TabIndex = 3;
             this.ultraLabel2.Text = "დოკუმენტის ID";
             // 
@@ -2176,10 +2126,9 @@
             appearance104.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(57)))), ((int)(((byte)(91)))));
             this.ultraButton1.Appearance = appearance104;
             this.ultraButton1.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2013Button;
-            this.ultraButton1.Location = new System.Drawing.Point(1400, 80);
-            this.ultraButton1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraButton1.Location = new System.Drawing.Point(559, 32);
             this.ultraButton1.Name = "ultraButton1";
-            this.ultraButton1.Size = new System.Drawing.Size(212, 58);
+            this.ultraButton1.Size = new System.Drawing.Size(85, 23);
             this.ultraButton1.TabIndex = 4;
             this.ultraButton1.Text = "ძებნა";
             this.ultraButton1.UseOsThemes = Infragistics.Win.DefaultableBoolean.False;
@@ -2187,10 +2136,10 @@
             // 
             // CLinkID
             // 
-            this.CLinkID.Location = new System.Drawing.Point(630, 80);
-            this.CLinkID.Margin = new System.Windows.Forms.Padding(20, 8, 8, 8);
+            this.CLinkID.Location = new System.Drawing.Point(252, 32);
+            this.CLinkID.Margin = new System.Windows.Forms.Padding(8, 3, 3, 3);
             this.CLinkID.Name = "CLinkID";
-            this.CLinkID.Size = new System.Drawing.Size(372, 51);
+            this.CLinkID.Size = new System.Drawing.Size(149, 25);
             this.CLinkID.TabIndex = 1;
             this.CLinkID.ValueChanged += new System.EventHandler(this.CLinkID_ValueChanged);
             this.CLinkID.TextChanged += new System.EventHandler(this.CLinkID_TextChanged);
@@ -2200,9 +2149,9 @@
             // 
             this.ultraTabPageControl1.Controls.Add(this.ultraTabControl2);
             this.ultraTabPageControl1.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl1.Name = "ultraTabPageControl1";
-            this.ultraTabPageControl1.Size = new System.Drawing.Size(2630, 1485);
+            this.ultraTabPageControl1.Size = new System.Drawing.Size(1040, 371);
             // 
             // ultraTabControl2
             // 
@@ -2211,10 +2160,10 @@
             this.ultraTabControl2.Controls.Add(this.ultraTabPageControl5);
             this.ultraTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ultraTabControl2.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabControl2.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabControl2.Name = "ultraTabControl2";
             this.ultraTabControl2.SharedControlsPage = this.ultraTabSharedControlsPage2;
-            this.ultraTabControl2.Size = new System.Drawing.Size(2630, 1485);
+            this.ultraTabControl2.Size = new System.Drawing.Size(1040, 371);
             this.ultraTabControl2.Style = Infragistics.Win.UltraWinTabControl.UltraTabControlStyle.Wizard;
             this.ultraTabControl2.TabButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2007RibbonButton;
             this.ultraTabControl2.TabIndex = 0;
@@ -2229,17 +2178,17 @@
             // ultraTabSharedControlsPage2
             // 
             this.ultraTabSharedControlsPage2.Location = new System.Drawing.Point(-10000, -10000);
-            this.ultraTabSharedControlsPage2.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabSharedControlsPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabSharedControlsPage2.Name = "ultraTabSharedControlsPage2";
-            this.ultraTabSharedControlsPage2.Size = new System.Drawing.Size(2630, 1485);
+            this.ultraTabSharedControlsPage2.Size = new System.Drawing.Size(1040, 371);
             // 
             // ultraTabPageControl2
             // 
             this.ultraTabPageControl2.Controls.Add(this.ultraTabControl9);
-            this.ultraTabPageControl2.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabPageControl2.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl2.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl2.Name = "ultraTabPageControl2";
-            this.ultraTabPageControl2.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabPageControl2.Size = new System.Drawing.Size(1040, 371);
             // 
             // ultraTabControl9
             // 
@@ -2249,13 +2198,13 @@
             this.ultraTabControl9.Controls.Add(this.ultraTabPageControl12);
             this.ultraTabControl9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ultraTabControl9.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabControl9.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
-            this.ultraTabControl9.MinimumSize = new System.Drawing.Size(2458, 0);
+            this.ultraTabControl9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ultraTabControl9.MinimumSize = new System.Drawing.Size(983, 0);
             this.ultraTabControl9.Name = "ultraTabControl9";
             this.ultraTabControl9.ScrollArrowStyle = Infragistics.Win.UltraWinTabs.ScrollArrowStyle.VisualStudio;
             this.ultraTabControl9.ScrollButtons = Infragistics.Win.UltraWinTabs.TabScrollButtons.None;
             this.ultraTabControl9.SharedControlsPage = this.ultraTabSharedControlsPage9;
-            this.ultraTabControl9.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabControl9.Size = new System.Drawing.Size(1040, 371);
             this.ultraTabControl9.Style = Infragistics.Win.UltraWinTabControl.UltraTabControlStyle.Wizard;
             this.ultraTabControl9.TabIndex = 5;
             ultraTab5.TabPage = this.ultraTabPageControl12;
@@ -2266,19 +2215,19 @@
             // 
             // ultraTabSharedControlsPage9
             // 
-            this.ultraTabSharedControlsPage9.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabSharedControlsPage9.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabSharedControlsPage9.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabSharedControlsPage9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabSharedControlsPage9.Name = "ultraTabSharedControlsPage9";
-            this.ultraTabSharedControlsPage9.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabSharedControlsPage9.Size = new System.Drawing.Size(1040, 371);
             // 
             // ultraTabPageControl3
             // 
             this.ultraTabPageControl3.Controls.Add(this.CLinkGrid);
             this.ultraTabPageControl3.Controls.Add(this.ultraTabControl13);
-            this.ultraTabPageControl3.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabPageControl3.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabPageControl3.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabPageControl3.Name = "ultraTabPageControl3";
-            this.ultraTabPageControl3.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabPageControl3.Size = new System.Drawing.Size(1040, 371);
             // 
             // CLinkGrid
             // 
@@ -2339,10 +2288,10 @@
             this.CLinkGrid.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
             this.CLinkGrid.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
             this.CLinkGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CLinkGrid.Location = new System.Drawing.Point(0, 300);
-            this.CLinkGrid.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.CLinkGrid.Location = new System.Drawing.Point(0, 120);
+            this.CLinkGrid.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CLinkGrid.Name = "CLinkGrid";
-            this.CLinkGrid.Size = new System.Drawing.Size(2628, 1095);
+            this.CLinkGrid.Size = new System.Drawing.Size(1040, 251);
             this.CLinkGrid.TabIndex = 15;
             this.CLinkGrid.Text = "ultraGrid1";
             // 
@@ -2354,10 +2303,10 @@
             this.ultraTabControl13.Controls.Add(this.ultraTabPageControl16);
             this.ultraTabControl13.Dock = System.Windows.Forms.DockStyle.Top;
             this.ultraTabControl13.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabControl13.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabControl13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabControl13.Name = "ultraTabControl13";
             this.ultraTabControl13.SharedControlsPage = this.ultraTabSharedControlsPage13;
-            this.ultraTabControl13.Size = new System.Drawing.Size(2628, 300);
+            this.ultraTabControl13.Size = new System.Drawing.Size(1040, 120);
             this.ultraTabControl13.Style = Infragistics.Win.UltraWinTabControl.UltraTabControlStyle.Wizard;
             this.ultraTabControl13.TabIndex = 11;
             ultraTab6.TabPage = this.ultraTabPageControl16;
@@ -2368,18 +2317,17 @@
             // 
             // ultraTabSharedControlsPage13
             // 
-            this.ultraTabSharedControlsPage13.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabSharedControlsPage13.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabSharedControlsPage13.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabSharedControlsPage13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabSharedControlsPage13.Name = "ultraTabSharedControlsPage13";
-            this.ultraTabSharedControlsPage13.Size = new System.Drawing.Size(2628, 300);
+            this.ultraTabSharedControlsPage13.Size = new System.Drawing.Size(1040, 120);
             // 
             // ultraTabPageControl8
             // 
             this.ultraTabPageControl8.Controls.Add(this.listView1);
-            this.ultraTabPageControl8.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabPageControl8.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraTabPageControl8.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabPageControl8.Name = "ultraTabPageControl8";
-            this.ultraTabPageControl8.Size = new System.Drawing.Size(2628, 1395);
+            this.ultraTabPageControl8.Size = new System.Drawing.Size(1040, 371);
             // 
             // listView1
             // 
@@ -2389,10 +2337,9 @@
             this.listView1.HideSelection = false;
             this.listView1.LargeImageList = this.imageList1;
             this.listView1.Location = new System.Drawing.Point(0, 0);
-            this.listView1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(2628, 1395);
+            this.listView1.Size = new System.Drawing.Size(1040, 371);
             this.listView1.SmallImageList = this.imageList1;
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
@@ -2406,21 +2353,9 @@
             // ultraTabPageControl13
             // 
             this.ultraTabPageControl13.Controls.Add(this.codexDSHistoryListBox1);
-            this.ultraTabPageControl13.Location = new System.Drawing.Point(-25000, -25000);
-            this.ultraTabPageControl13.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.ultraTabPageControl13.Location = new System.Drawing.Point(-10000, -10000);
             this.ultraTabPageControl13.Name = "ultraTabPageControl13";
-            this.ultraTabPageControl13.Size = new System.Drawing.Size(2628, 1395);
-            // 
-            // codexDSHistoryListBox1
-            // 
-            this.codexDSHistoryListBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.codexDSHistoryListBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.codexDSHistoryListBox1.Location = new System.Drawing.Point(0, 0);
-            this.codexDSHistoryListBox1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
-            this.codexDSHistoryListBox1.Name = "codexDSHistoryListBox1";
-            this.codexDSHistoryListBox1.Size = new System.Drawing.Size(2628, 1395);
-            this.codexDSHistoryListBox1.TabIndex = 0;
-            this.codexDSHistoryListBox1.DocumentClick += new ILG.Codex.CodexDSHistoryListBox.CallHistoryDocumentEventHandler(this.codexDSHistoryListBox1_DocumentClick);
+            this.ultraTabPageControl13.Size = new System.Drawing.Size(1040, 371);
             // 
             // contextMenuStrip1
             // 
@@ -2439,10 +2374,10 @@
             this.ultraTabControl1.Controls.Add(this.ultraTabPageControl13);
             this.ultraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ultraTabControl1.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabControl1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabControl1.Name = "ultraTabControl1";
             this.ultraTabControl1.SharedControlsPage = this.ultraTabSharedControlsPage1;
-            this.ultraTabControl1.Size = new System.Drawing.Size(2630, 1485);
+            this.ultraTabControl1.Size = new System.Drawing.Size(1040, 371);
             this.ultraTabControl1.Style = Infragistics.Win.UltraWinTabControl.UltraTabControlStyle.Wizard;
             this.ultraTabControl1.TabIndex = 0;
             ultraTab7.TabPage = this.ultraTabPageControl1;
@@ -2467,19 +2402,18 @@
             // ultraTabSharedControlsPage1
             // 
             this.ultraTabSharedControlsPage1.Location = new System.Drawing.Point(-10000, -10000);
-            this.ultraTabSharedControlsPage1.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.ultraTabSharedControlsPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ultraTabSharedControlsPage1.Name = "ultraTabSharedControlsPage1";
-            this.ultraTabSharedControlsPage1.Size = new System.Drawing.Size(2630, 1485);
+            this.ultraTabSharedControlsPage1.Size = new System.Drawing.Size(1040, 371);
             // 
             // DocumentAddEdit_Fill_Panel
             // 
             this.DocumentAddEdit_Fill_Panel.Controls.Add(this.ultraTabControl1);
             this.DocumentAddEdit_Fill_Panel.Cursor = System.Windows.Forms.Cursors.Default;
             this.DocumentAddEdit_Fill_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DocumentAddEdit_Fill_Panel.Location = new System.Drawing.Point(1, 289);
-            this.DocumentAddEdit_Fill_Panel.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.DocumentAddEdit_Fill_Panel.Location = new System.Drawing.Point(1, 151);
             this.DocumentAddEdit_Fill_Panel.Name = "DocumentAddEdit_Fill_Panel";
-            this.DocumentAddEdit_Fill_Panel.Size = new System.Drawing.Size(2630, 1485);
+            this.DocumentAddEdit_Fill_Panel.Size = new System.Drawing.Size(1040, 371);
             this.DocumentAddEdit_Fill_Panel.TabIndex = 0;
             // 
             // _DocumentAddEdit_Toolbars_Dock_Area_Left
@@ -2489,12 +2423,203 @@
             this._DocumentAddEdit_Toolbars_Dock_Area_Left.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Left;
             this._DocumentAddEdit_Toolbars_Dock_Area_Left.ForeColor = System.Drawing.SystemColors.ControlText;
             this._DocumentAddEdit_Toolbars_Dock_Area_Left.InitialResizeAreaExtent = 1;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Left.Location = new System.Drawing.Point(0, 289);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Left.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Left.Location = new System.Drawing.Point(0, 151);
             this._DocumentAddEdit_Toolbars_Dock_Area_Left.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Left";
-            this._DocumentAddEdit_Toolbars_Dock_Area_Left.Size = new System.Drawing.Size(1, 1485);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Left.Size = new System.Drawing.Size(1, 371);
             this._DocumentAddEdit_Toolbars_Dock_Area_Left.ToolbarsManager = this.ultraToolbarsManager1;
             this._DocumentAddEdit_Toolbars_Dock_Area_Left.UseAppStyling = false;
+            // 
+            // _DocumentAddEdit_Toolbars_Dock_Area_Right
+            // 
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Right;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.ForeColor = System.Drawing.SystemColors.ControlText;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.InitialResizeAreaExtent = 1;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Location = new System.Drawing.Point(1041, 151);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Right";
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Size = new System.Drawing.Size(1, 371);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.ToolbarsManager = this.ultraToolbarsManager1;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Right.UseAppStyling = false;
+            // 
+            // _DocumentAddEdit_Toolbars_Dock_Area_Top
+            // 
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Top;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.ForeColor = System.Drawing.SystemColors.ControlText;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Location = new System.Drawing.Point(0, 0);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Top";
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Size = new System.Drawing.Size(1042, 151);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.ToolbarsManager = this.ultraToolbarsManager1;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Top.UseAppStyling = false;
+            // 
+            // _DocumentAddEdit_Toolbars_Dock_Area_Bottom
+            // 
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Bottom;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.ForeColor = System.Drawing.SystemColors.ControlText;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.InitialResizeAreaExtent = 1;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Location = new System.Drawing.Point(0, 522);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Bottom";
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Size = new System.Drawing.Size(1042, 1);
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.ToolbarsManager = this.ultraToolbarsManager1;
+            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.UseAppStyling = false;
+            // 
+            // dataSet1
+            // 
+            this.dataSet1.DataSetName = "DataLink";
+            this.dataSet1.Tables.AddRange(new System.Data.DataTable[] {
+            this.Links});
+            // 
+            // Links
+            // 
+            this.Links.Columns.AddRange(new System.Data.DataColumn[] {
+            this.dataColumn1,
+            this.dataColumn2,
+            this.dataColumn3,
+            this.dataColumn4,
+            this.dataColumn5,
+            this.dataColumn6,
+            this.dataColumn7,
+            this.dataColumn8,
+            this.dataColumn9});
+            this.Links.TableName = "Links";
+            // 
+            // dataColumn1
+            // 
+            this.dataColumn1.AllowDBNull = false;
+            this.dataColumn1.ColumnName = "ID";
+            this.dataColumn1.DataType = typeof(short);
+            // 
+            // dataColumn2
+            // 
+            this.dataColumn2.ColumnName = "Order";
+            this.dataColumn2.DataType = typeof(double);
+            // 
+            // dataColumn3
+            // 
+            this.dataColumn3.Caption = "Color";
+            this.dataColumn3.ColumnName = "Color";
+            this.dataColumn3.DataType = typeof(short);
+            // 
+            // dataColumn4
+            // 
+            this.dataColumn4.Caption = "Status";
+            this.dataColumn4.ColumnName = "Status";
+            this.dataColumn4.DataType = typeof(short);
+            // 
+            // dataColumn5
+            // 
+            this.dataColumn5.Caption = "Type";
+            this.dataColumn5.ColumnName = "Type";
+            this.dataColumn5.DataType = typeof(short);
+            // 
+            // dataColumn6
+            // 
+            this.dataColumn6.Caption = "Caption";
+            this.dataColumn6.ColumnName = "Caption";
+            this.dataColumn6.MaxLength = 1024;
+            // 
+            // dataColumn7
+            // 
+            this.dataColumn7.Caption = "Access";
+            this.dataColumn7.ColumnName = "Access";
+            this.dataColumn7.DataType = typeof(int);
+            // 
+            // dataColumn8
+            // 
+            this.dataColumn8.Caption = "Link";
+            this.dataColumn8.ColumnName = "Link";
+            this.dataColumn8.DataType = typeof(int);
+            // 
+            // dataColumn9
+            // 
+            this.dataColumn9.Caption = "Version";
+            this.dataColumn9.ColumnName = "Version";
+            this.dataColumn9.DataType = typeof(short);
+            // 
+            // ultraTabSharedControlsPage4
+            // 
+            this.ultraTabSharedControlsPage4.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabSharedControlsPage4.Name = "ultraTabSharedControlsPage4";
+            this.ultraTabSharedControlsPage4.Size = new System.Drawing.Size(1049, 35);
+            // 
+            // ultraTabPageControl9
+            // 
+            this.ultraTabPageControl9.Location = new System.Drawing.Point(0, 0);
+            this.ultraTabPageControl9.Name = "ultraTabPageControl9";
+            this.ultraTabPageControl9.Size = new System.Drawing.Size(1051, 35);
+            // 
+            // ultraTabPageControl10
+            // 
+            this.ultraTabPageControl10.Location = new System.Drawing.Point(0, 0);
+            this.ultraTabPageControl10.Name = "ultraTabPageControl10";
+            this.ultraTabPageControl10.Size = new System.Drawing.Size(1051, 35);
+            // 
+            // ultraTabPageControl11
+            // 
+            this.ultraTabPageControl11.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl11.Name = "ultraTabPageControl11";
+            this.ultraTabPageControl11.Size = new System.Drawing.Size(1051, 35);
+            // 
+            // ultraTabPageControl14
+            // 
+            this.ultraTabPageControl14.Location = new System.Drawing.Point(0, 0);
+            this.ultraTabPageControl14.Name = "ultraTabPageControl14";
+            this.ultraTabPageControl14.Size = new System.Drawing.Size(1051, 35);
+            // 
+            // ultraTabPageControl15
+            // 
+            this.ultraTabPageControl15.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl15.Name = "ultraTabPageControl15";
+            this.ultraTabPageControl15.Size = new System.Drawing.Size(1051, 35);
+            // 
+            // ultraTabPageControl17
+            // 
+            this.ultraTabPageControl17.Location = new System.Drawing.Point(0, 0);
+            this.ultraTabPageControl17.Name = "ultraTabPageControl17";
+            this.ultraTabPageControl17.Size = new System.Drawing.Size(1049, 35);
+            // 
+            // ultraTabPageControl18
+            // 
+            this.ultraTabPageControl18.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl18.Name = "ultraTabPageControl18";
+            this.ultraTabPageControl18.Size = new System.Drawing.Size(1049, 35);
+            // 
+            // formContainer1
+            // 
+            this.formContainer1.AutoScroll = true;
+            this.formContainer1.AutoScrollMinSize = new System.Drawing.Size(1, 1);
+            this.formContainer1.BackColor = System.Drawing.Color.DimGray;
+            this.formContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.formContainer1.Font = new System.Drawing.Font("Sylfaen", 9F);
+            this.formContainer1.Location = new System.Drawing.Point(0, 0);
+            this.formContainer1.Name = "formContainer1";
+            this.formContainer1.Size = new System.Drawing.Size(1040, 371);
+            this.formContainer1.TabIndex = 12;
+            // 
+            // pdfViewer1
+            // 
+            this.pdfViewer1.BackColor = System.Drawing.Color.Silver;
+            this.pdfViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pdfViewer1.Location = new System.Drawing.Point(0, 0);
+            this.pdfViewer1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pdfViewer1.Name = "pdfViewer1";
+            this.pdfViewer1.Size = new System.Drawing.Size(1038, 348);
+            this.pdfViewer1.TabIndex = 0;
+            // 
+            // codexDSHistoryListBox1
+            // 
+            this.codexDSHistoryListBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.codexDSHistoryListBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.codexDSHistoryListBox1.Location = new System.Drawing.Point(0, 0);
+            this.codexDSHistoryListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.codexDSHistoryListBox1.Name = "codexDSHistoryListBox1";
+            this.codexDSHistoryListBox1.Size = new System.Drawing.Size(1040, 371);
+            this.codexDSHistoryListBox1.TabIndex = 0;
+            this.codexDSHistoryListBox1.DocumentClick += new ILG.Codex.CodexDSHistoryListBox.CallHistoryDocumentEventHandler(this.codexDSHistoryListBox1_DocumentClick);
             // 
             // ultraToolbarsManager1
             // 
@@ -3284,173 +3409,11 @@
             this.ultraToolbarsManager1.BeforeRibbonTabSelected += new Infragistics.Win.UltraWinToolbars.BeforeRibbonTabSelectedEventHandler(this.ultraToolbarsManager1_BeforeRibbonTabSelected);
             this.ultraToolbarsManager1.ToolClick += new Infragistics.Win.UltraWinToolbars.ToolClickEventHandler(this.ultraToolbarsManager1_ToolClick);
             // 
-            // _DocumentAddEdit_Toolbars_Dock_Area_Right
-            // 
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Right;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.ForeColor = System.Drawing.SystemColors.ControlText;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.InitialResizeAreaExtent = 1;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Location = new System.Drawing.Point(2631, 289);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Right";
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.Size = new System.Drawing.Size(1, 1485);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.ToolbarsManager = this.ultraToolbarsManager1;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Right.UseAppStyling = false;
-            // 
-            // _DocumentAddEdit_Toolbars_Dock_Area_Top
-            // 
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Top;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.ForeColor = System.Drawing.SystemColors.ControlText;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Location = new System.Drawing.Point(0, 0);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Top";
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.Size = new System.Drawing.Size(2632, 289);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.ToolbarsManager = this.ultraToolbarsManager1;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Top.UseAppStyling = false;
-            // 
-            // _DocumentAddEdit_Toolbars_Dock_Area_Bottom
-            // 
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.AccessibleRole = System.Windows.Forms.AccessibleRole.Grouping;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.DockedPosition = Infragistics.Win.UltraWinToolbars.DockedPosition.Bottom;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.ForeColor = System.Drawing.SystemColors.ControlText;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.InitialResizeAreaExtent = 1;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Location = new System.Drawing.Point(0, 1774);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Name = "_DocumentAddEdit_Toolbars_Dock_Area_Bottom";
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.Size = new System.Drawing.Size(2632, 1);
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.ToolbarsManager = this.ultraToolbarsManager1;
-            this._DocumentAddEdit_Toolbars_Dock_Area_Bottom.UseAppStyling = false;
-            // 
-            // dataSet1
-            // 
-            this.dataSet1.DataSetName = "DataLink";
-            this.dataSet1.Tables.AddRange(new System.Data.DataTable[] {
-            this.Links});
-            // 
-            // Links
-            // 
-            this.Links.Columns.AddRange(new System.Data.DataColumn[] {
-            this.dataColumn1,
-            this.dataColumn2,
-            this.dataColumn3,
-            this.dataColumn4,
-            this.dataColumn5,
-            this.dataColumn6,
-            this.dataColumn7,
-            this.dataColumn8,
-            this.dataColumn9});
-            this.Links.TableName = "Links";
-            // 
-            // dataColumn1
-            // 
-            this.dataColumn1.AllowDBNull = false;
-            this.dataColumn1.ColumnName = "ID";
-            this.dataColumn1.DataType = typeof(short);
-            // 
-            // dataColumn2
-            // 
-            this.dataColumn2.ColumnName = "Order";
-            this.dataColumn2.DataType = typeof(double);
-            // 
-            // dataColumn3
-            // 
-            this.dataColumn3.Caption = "Color";
-            this.dataColumn3.ColumnName = "Color";
-            this.dataColumn3.DataType = typeof(short);
-            // 
-            // dataColumn4
-            // 
-            this.dataColumn4.Caption = "Status";
-            this.dataColumn4.ColumnName = "Status";
-            this.dataColumn4.DataType = typeof(short);
-            // 
-            // dataColumn5
-            // 
-            this.dataColumn5.Caption = "Type";
-            this.dataColumn5.ColumnName = "Type";
-            this.dataColumn5.DataType = typeof(short);
-            // 
-            // dataColumn6
-            // 
-            this.dataColumn6.Caption = "Caption";
-            this.dataColumn6.ColumnName = "Caption";
-            this.dataColumn6.MaxLength = 1024;
-            // 
-            // dataColumn7
-            // 
-            this.dataColumn7.Caption = "Access";
-            this.dataColumn7.ColumnName = "Access";
-            this.dataColumn7.DataType = typeof(int);
-            // 
-            // dataColumn8
-            // 
-            this.dataColumn8.Caption = "Link";
-            this.dataColumn8.ColumnName = "Link";
-            this.dataColumn8.DataType = typeof(int);
-            // 
-            // dataColumn9
-            // 
-            this.dataColumn9.Caption = "Version";
-            this.dataColumn9.ColumnName = "Version";
-            this.dataColumn9.DataType = typeof(short);
-            // 
-            // ultraTabSharedControlsPage4
-            // 
-            this.ultraTabSharedControlsPage4.Location = new System.Drawing.Point(-10000, -10000);
-            this.ultraTabSharedControlsPage4.Name = "ultraTabSharedControlsPage4";
-            this.ultraTabSharedControlsPage4.Size = new System.Drawing.Size(1049, 35);
-            // 
-            // ultraTabPageControl9
-            // 
-            this.ultraTabPageControl9.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl9.Name = "ultraTabPageControl9";
-            this.ultraTabPageControl9.Size = new System.Drawing.Size(1051, 35);
-            // 
-            // ultraTabPageControl10
-            // 
-            this.ultraTabPageControl10.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl10.Name = "ultraTabPageControl10";
-            this.ultraTabPageControl10.Size = new System.Drawing.Size(1051, 35);
-            // 
-            // ultraTabPageControl11
-            // 
-            this.ultraTabPageControl11.Location = new System.Drawing.Point(-10000, -10000);
-            this.ultraTabPageControl11.Name = "ultraTabPageControl11";
-            this.ultraTabPageControl11.Size = new System.Drawing.Size(1051, 35);
-            // 
-            // ultraTabPageControl14
-            // 
-            this.ultraTabPageControl14.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl14.Name = "ultraTabPageControl14";
-            this.ultraTabPageControl14.Size = new System.Drawing.Size(1051, 35);
-            // 
-            // ultraTabPageControl15
-            // 
-            this.ultraTabPageControl15.Location = new System.Drawing.Point(-10000, -10000);
-            this.ultraTabPageControl15.Name = "ultraTabPageControl15";
-            this.ultraTabPageControl15.Size = new System.Drawing.Size(1051, 35);
-            // 
-            // ultraTabPageControl17
-            // 
-            this.ultraTabPageControl17.Location = new System.Drawing.Point(0, 0);
-            this.ultraTabPageControl17.Name = "ultraTabPageControl17";
-            this.ultraTabPageControl17.Size = new System.Drawing.Size(1049, 35);
-            // 
-            // ultraTabPageControl18
-            // 
-            this.ultraTabPageControl18.Location = new System.Drawing.Point(-10000, -10000);
-            this.ultraTabPageControl18.Name = "ultraTabPageControl18";
-            this.ultraTabPageControl18.Size = new System.Drawing.Size(1049, 35);
-            // 
             // DocumentAddEdit
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(240F, 240F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(2632, 1775);
+            this.ClientSize = new System.Drawing.Size(1042, 523);
             this.Controls.Add(this.DocumentAddEdit_Fill_Panel);
             this.Controls.Add(this._DocumentAddEdit_Toolbars_Dock_Area_Left);
             this.Controls.Add(this._DocumentAddEdit_Toolbars_Dock_Area_Right);
@@ -3458,7 +3421,7 @@
             this.Controls.Add(this._DocumentAddEdit_Toolbars_Dock_Area_Top);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "DocumentAddEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DocumentAddEdit";
@@ -3485,9 +3448,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.CEncoding)).EndInit();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.CStatus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CDocFormat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CSecStatus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CStatus)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.EWord)).EndInit();
@@ -3531,9 +3494,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).EndInit();
             this.ultraTabControl1.ResumeLayout(false);
             this.DocumentAddEdit_Fill_Panel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ultraToolbarsManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Links)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraToolbarsManager1)).EndInit();
             this.ResumeLayout(false);
 
         }
